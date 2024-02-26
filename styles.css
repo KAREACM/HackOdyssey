@@ -13,7 +13,7 @@ body{
 }
 
 .th p{
-	font-weight: bold;
+    font-weight: bold;
     font-size: medium;
 }
 
@@ -30,6 +30,27 @@ body{
 .imm img{
     width: 250px;
     height: 220px;
+}
+
+.btnn{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+    background-color: #007aff;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+.btnn:hover{
+    background-color: orange;
+    color: #fff;
+    text-decoration: none;
+}
+
+.bt{
+    text-align: center;
+    padding-top: 15px;
 }
 
 /*Footer css starts*/
